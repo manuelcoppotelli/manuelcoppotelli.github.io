@@ -40,7 +40,9 @@ export default {
   plugins: [
     svelte({
 			preprocess: preprocess({
-				babel: true,
+        sourceMap: !production,
+        babel: true,
+        postcss: true,
 			}),
       compilerOptions: {
         // enable run-time checks when not in production
