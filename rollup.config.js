@@ -4,10 +4,9 @@ import resolve from '@rollup/plugin-node-resolve'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import css from 'rollup-plugin-css-only'
-import preprocess from 'svelte-preprocess'
 import inlineSvg from 'rollup-plugin-inline-svg'
-import image from "svelte-image"
 import copy from 'rollup-plugin-copy'
+import svelteConfig from './svelte.config'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -43,20 +42,8 @@ export default {
   plugins: [
     inlineSvg(),
     
-    svelte({
-			preprocess: {
-        ...preprocess({
-          sourceMap: !production,
-          babel: true,
-          postcss: true,
-        }),
-        ...image(),
-      },
-      compilerOptions: {
-        // enable run-time checks when not in production
-        dev: !production,
-      },
-    }),
+    svelte(svelteConfig),
+
     // we'll extract any component CSS out into
     // a separate file - better for performance
     css({
