@@ -6,6 +6,7 @@ import { terser } from 'rollup-plugin-terser'
 import css from 'rollup-plugin-css-only'
 import preprocess from 'svelte-preprocess'
 import inlineSvg from 'rollup-plugin-inline-svg'
+import image from "svelte-image"
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -42,11 +43,14 @@ export default {
     inlineSvg(),
     
     svelte({
-			preprocess: preprocess({
-        sourceMap: !production,
-        babel: true,
-        postcss: true,
-			}),
+			preprocess: {
+        ...preprocess({
+          sourceMap: !production,
+          babel: true,
+          postcss: true,
+        }),
+        ...image(),
+      },
       compilerOptions: {
         // enable run-time checks when not in production
         dev: !production,
