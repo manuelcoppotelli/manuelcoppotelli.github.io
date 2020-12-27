@@ -1,4 +1,8 @@
 <script>
+  export let name = ''
+  export let role = ''
+  export let place = ''
+
   import briefcase from 'heroicons/solid/briefcase.svg'  
   import locationMarker from 'heroicons/solid/location-marker.svg'
 
@@ -9,7 +13,7 @@
 <div class="py-8 text-base leading-6 space-y-1 text-gray-700 dark:text-gray-200 sm:text-lg sm:leading-7">
 
   <div class="flex items-start justify-center">
-    <p class="ml-2 font-bold text-3xl">Manuel Coppotelli</p>
+    <p class="ml-2 font-bold text-3xl">{ name }</p>
   </div>
 
 
@@ -19,7 +23,7 @@
       {@html briefcase }
     </Icon>
 
-    <p class="ml-2 font-bold">Cloud Engineer</p>
+    <p class="ml-2 font-bold">{ role }</p>
   
   </div>
 
@@ -30,7 +34,7 @@
       {@html locationMarker }
     </Icon>
     
-    <p class="ml-2">Roma, Italy</p>
+    <p class="ml-2">{ place }</p>
 
   </div>
 

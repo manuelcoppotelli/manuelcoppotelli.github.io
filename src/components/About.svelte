@@ -17,11 +17,27 @@
 
   <div class="divide-y divide-gray-800">
 
-    <Header />
+    <Header
+      name="Manuel Coppotelli"
+      role="Cloud Engineer"
+      place="Roma, Italy 🇮🇹"
+    />
 
-    <Skills />
+    <Skills
+      set={[
+        "AWS Solution Architect Professional",
+        "Certified Kubernetes Adminstrator",
+        "Designing Cloud Native Applications using serverless and container paradigms",
+        "Curiosity motivates me in investigation, study and new experiences",
+      ]}
+    />
 
-    <Contacts />
+    <Contacts
+      email="manuel@manuelcoppotelli.me"
+      linkedin="manuelcoppotelli"
+      twitter="manuel_coppo"
+      github="manuelcoppotelli"
+    />
 
   </div>
 

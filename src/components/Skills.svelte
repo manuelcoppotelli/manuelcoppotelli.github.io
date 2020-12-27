@@ -1,5 +1,7 @@
 <script>
   import Skill from './Skill.svelte'
+
+  export let set = []
 </script>
 
 
@@ -7,24 +9,13 @@
   
   <ul class="list-disc space-y-2">
 
-    <Skill>
-      AWS Solution Architect Professional
-    </Skill>
-
+    {#each set as skill}
 
     <Skill>
-      Certified Kubernetes Adminstrator
+      { skill }
     </Skill>
 
-
-    <Skill>
-      Designing Cloud Native Applications using serverless and container paradigms
-    </Skill>
-
-
-    <Skill>
-      Curiosity motivates me in investigation, study and new experiences
-    </Skill>
+    {/each}
 
   </ul>
 
