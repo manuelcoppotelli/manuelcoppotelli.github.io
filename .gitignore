@@ -51,6 +51,8 @@ typings/
 # svelte files
 .cache/
 public/build
+public/g
+static/g
 
 # Mac files
 .DS_Store
