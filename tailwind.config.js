@@ -3,6 +3,8 @@ const colors = require('tailwindcss/colors')
 const production = !process.env.ROLLUP_WATCH;
 
 module.exports = {
+  darkMode: 'media',
+  plugins: [],
   purge: {
     content: [
       './src/**/*.svelte',
@@ -12,11 +14,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'light-blue': colors.lightBlue,
         cyan: colors.cyan,
+        'light-blue': colors.lightBlue,
       },
     },
   },
   variants: {},
-  plugins: [],
 }

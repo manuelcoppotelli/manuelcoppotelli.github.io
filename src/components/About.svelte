@@ -15,7 +15,7 @@
     alt="Manuel Coppotelli"
   />
 
-  <div class="divide-y divide-gray-200">
+  <div class="divide-y divide-gray-800">
 
     <Header />
 
