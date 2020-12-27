@@ -5,6 +5,9 @@
   let show = false
 
   import SvelteTooltip from 'svelte-tooltip'
+
+  import { gray } from 'tailwindcss/colors'
+
 </script>
 
 
@@ -15,7 +18,7 @@
     bottom active={show}
     on:mouseenter={ () => show=true } 
     on:mouseleave={ () => show=false }
-    color="rgb(55, 65, 81)"
+    color="{ gray[700] }"
   >
     
     <a href="{to}" >
