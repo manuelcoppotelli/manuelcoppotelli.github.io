@@ -5,7 +5,7 @@ import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import css from 'rollup-plugin-css-only'
 import preprocess from 'svelte-preprocess'
-import inlineSvg from 'rollup-plugin-inline-svg';
+import inlineSvg from 'rollup-plugin-inline-svg'
 
 const production = !process.env.ROLLUP_WATCH
 
