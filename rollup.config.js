@@ -7,6 +7,7 @@ import css from 'rollup-plugin-css-only'
 import preprocess from 'svelte-preprocess'
 import inlineSvg from 'rollup-plugin-inline-svg'
 import image from "svelte-image"
+import copy from 'rollup-plugin-copy'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -61,6 +62,18 @@ export default {
     css({
       output: 'bundle.css',
       minimize: production ? true : false,
+    }),
+
+    // In order for Image optimization to work
+    // the generated static/g folder needs to be
+    // copied to the public folder
+    copy({
+      targets: [
+        { 
+          src: 'static/g',
+          dest: 'public',
+        },
+      ],
     }),
 
     // If you have external dependencies installed from
