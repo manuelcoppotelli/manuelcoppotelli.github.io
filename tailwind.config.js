@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 const production = !process.env.ROLLUP_WATCH;
 
 module.exports = {
@@ -7,7 +9,14 @@ module.exports = {
     ], 
     enabled: production
   },
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'light-blue': colors.lightBlue,
+        cyan: colors.cyan,
+      },
+    },
+  },
   variants: {},
   plugins: [],
 }
