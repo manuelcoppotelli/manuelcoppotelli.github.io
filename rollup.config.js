@@ -47,7 +47,6 @@ export default {
     // a separate file - better for performance
     css({
       output: 'bundle.css',
-      minimize: production ? true : false,
     }),
 
     // In order for Image optimization to work
