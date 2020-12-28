@@ -1,13 +1,16 @@
-import preprocess from 'svelte-preprocess'
-import image from "svelte-image"
+const image = require('svelte-image')
+const sveltePreprocess = require('svelte-preprocess')
 
 const production = !process.env.ROLLUP_WATCH
 
-
-export default {
+module.exports = {
   preprocess: [
-    preprocess({
-      sourceMap: !production,
+    sveltePreprocess({
+      defaults: {
+        style: 'postcss',
+        script: 'babel',
+      },
+      sourceMap: production,
       babel: true,
       postcss: true,
     }),

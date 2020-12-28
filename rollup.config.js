@@ -6,7 +6,6 @@ import { terser } from 'rollup-plugin-terser'
 import css from 'rollup-plugin-css-only'
 import inlineSvg from 'rollup-plugin-inline-svg'
 import copy from 'rollup-plugin-copy'
-import svelteConfig from './svelte.config'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -42,7 +41,7 @@ export default {
   plugins: [
     inlineSvg(),
     
-    svelte(svelteConfig),
+    svelte(require('./svelte.config')),
 
     // we'll extract any component CSS out into
     // a separate file - better for performance
