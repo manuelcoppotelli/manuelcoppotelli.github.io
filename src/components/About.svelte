@@ -33,7 +33,7 @@
     />
 
     <Contacts
-      email="manuel@manuelcoppotelli.me"
+      email="hi@manuelcoppotelli.me"
       linkedin="manuelcoppotelli"
       twitter="manuel_coppo"
       github="manuelcoppotelli"
