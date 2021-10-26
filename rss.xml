@@ -1,0 +1,19 @@
+
+<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Manuel Coppotelli - Cloud Engineer - AWS - Kubernetes - Serverless - DevOps</title>
+    <link>https://manuelcoppotelli.me</link>
+    <description>I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
+    
+        <item>
+          <title>VMworld 2021 as speaker</title>
+          <description>VMworld 2021 has just ended... the first VMworld I took part in... as speaker!</description>
+          <link>https://manuelcoppotelli.me/vmworld-2021-as-speaker/</link>
+          <pubDate>2021-10-11T00:00:00.000Z</pubDate>
+          <category term="Events" /><category term="Cloud" /><category term="Communities" /><category term="VMware" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/vmworld-2021-as-speaker/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/vmworld-2021-as-speaker/cover.jpg"/>
+        </item>
+      
+  </channel>
+</rss>
