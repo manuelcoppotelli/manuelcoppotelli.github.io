@@ -6,6 +6,26 @@
     <description>I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
     
         <item>
+          <title>AWS EKS high-density pods</title>
+          <description>AWS recently released a new version of the AWS-CNI that allows more Pods per node...</description>
+          <link>https://manuelcoppotelli.me/aws-eks-high-density-pods/</link>
+          <pubDate>2021-11-23T00:00:00.000Z</pubDate>
+          <category term="Cloud" /><category term="AWS" /><category term="Kubernetes" /><category term="CNI" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/aws-eks-high-density-pods/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/aws-eks-high-density-pods/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>VMware {code} Hackathon @ VMworld 2021</title>
+          <description>Imagine That! We wan to see what unique projects your creativity leads to!</description>
+          <link>https://manuelcoppotelli.me/vmware-code-hackathon-at-vmworld-2021/</link>
+          <pubDate>2021-10-13T00:00:00.000Z</pubDate>
+          <category term="Hackathon" /><category term="Events" /><category term="Communities" /><category term="VMware" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/vmware-code-hackathon-at-vmworld-2021/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/vmware-code-hackathon-at-vmworld-2021/cover.jpg"/>
+        </item>
+      
+        <item>
           <title>VMworld 2021 as speaker</title>
           <description>VMworld 2021 has just ended... the first VMworld I took part in... as speaker!</description>
           <link>https://manuelcoppotelli.me/vmworld-2021-as-speaker/</link>
