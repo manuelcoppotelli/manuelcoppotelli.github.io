@@ -23,7 +23,7 @@
   <a href="mailto:hi@manuelcoppotelli.me" target="_blank" rel="noopener" title="Send an email to hi@manuelcoppotelli.me">
     <EmailIcon />
   </a>
-  <a href="/rss.xml" target="_blank" rel="noopener" title="Subscribe to my RSS Feed">
+  <a href="/blog/rss.xml" target="_blank" rel="noopener" title="Subscribe to my RSS Feed">
     <Rss />
   </a>
 </div>
