@@ -1,45 +1,45 @@
 .container {
-  @include padded-container;
+	@include padded-container;
 }
 
 a {
-  color: var(--primary-color);
+	color: var(--primary-color);
 
-  &:hover {
-    text-decoration: underline;
-  }
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 section {
-  position: relative;
+	position: relative;
 }
 
 // #region Titles
 h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+	font-size: 2.5rem;
+	font-weight: 700;
 
-  @include for-phone-only {
-    font-size: 2rem;
-  }
+	@include for-phone-only {
+		font-size: 2rem;
+	}
 }
 
 h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
+	font-size: 1.8rem;
+	font-weight: 600;
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 h4 {
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 h5 {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 h1,
@@ -47,50 +47,51 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--title-font);
+	font-family: var(--title-font);
 }
 // #endregion
 
 // #region Text
 .text-primary {
-  color: var(--primary-color);
-  fill: var(--primary-color);
+	color: var(--primary-color);
+	fill: var(--primary-color);
 }
 .text-secondary {
-  color: var(--secondary-color);
-  fill: var(--secondary-color);
+	color: var(--secondary-color);
+	fill: var(--secondary-color);
 }
 .text-lighter {
-  color: rgba(var(--text-color-rgb), 0.8);
-  fill: rgba(var(--text-color-rgb), 0.8);
+	color: rgba(var(--text-color-rgb), 0.8);
+	fill: rgba(var(--text-color-rgb), 0.8);
 }
 .justify {
-  text-align: justify;
+	text-align: justify;
 }
 .text-info {
-  color: var(--callout-info-accent-color);
-  fill: var(--callout-info-accent-color);
+	color: var(--callout-info-accent-color);
+	fill: var(--callout-info-accent-color);
 }
-ul, ol {
-  margin: 10px 0 10px 40px; 
+ul,
+ol {
+	margin: 10px 0 10px 40px;
 
-  li {
-    margin: 6px 0;
+	li {
+		margin: 6px 0;
 
-    &::marker {
-      color: var(--primary-color);
-    }
-  }
+		&::marker {
+			color: var(--primary-color);
+		}
+	}
 }
 ul {
-  list-style: outside;
+	list-style: outside;
 }
 strong,
 b {
-  font-weight: 600;
+	font-weight: 600;
 }
 em,
 i {
-  font-style: italic;
+	font-style: italic;
 }
 // #endregion

@@ -4,3 +4,7 @@ node_modules
 /.svelte-kit
 /package
 /static/images
+/image-transmutation
+.env
+.env.*
+!.env.example

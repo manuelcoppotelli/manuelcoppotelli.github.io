@@ -2,7 +2,7 @@
 slug: vmworld-2021-as-speaker
 title: VMworld 2021 as speaker
 date: 2021-10-11
-excerpt: "VMworld 2021 has just ended... the first VMworld I took part in... as speaker!"
+excerpt: 'VMworld 2021 has just ended... the first VMworld I took part in... as speaker!'
 tags: [Events, Cloud, Communities, VMware]
 ---
 

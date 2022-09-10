@@ -1,10 +1,9 @@
-
 <span class="wrapper">
-  <slot />
+	<slot />
 </span>
 
 <style lang="scss">
-  .wrapper {
-    background: var(--highlight-marker-url);
-  }
+	.wrapper {
+		background: var(--highlight-marker-url);
+	}
 </style>
