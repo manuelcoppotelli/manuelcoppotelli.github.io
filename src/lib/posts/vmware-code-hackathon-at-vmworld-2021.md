@@ -2,7 +2,7 @@
 slug: vmware-code-hackathon-at-vmworld-2021
 title: VMware {code} Hackathon @ VMworld 2021
 date: 2021-10-13
-excerpt: "Imagine That! We wan to see what unique projects your creativity leads to!"
+excerpt: 'Imagine That! We wan to see what unique projects your creativity leads to!'
 tags: [Hackathon, Events, Communities, VMware]
 ---
 

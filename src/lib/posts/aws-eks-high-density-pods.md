@@ -2,7 +2,7 @@
 slug: aws-eks-high-density-pods
 title: AWS EKS high-density pods
 date: 2021-11-23
-excerpt: "AWS recently released a new version of the AWS-CNI that allows more Pods per node..."
+excerpt: 'AWS recently released a new version of the AWS-CNI that allows more Pods per node...'
 tags: [Cloud, AWS, Kubernetes, CNI]
 ---
 
@@ -30,9 +30,9 @@ a bit of background on how intra-node networking works in Kubernetes.
 
 Each time a new pod is created, the kubelet agent delegates:
 
-1. Creating the container to the *Container Runtime Interface*
-1. Attaching the container to the network to the *Container Network Interface*
-1. Mounting volumes to the *Container Storage Interface*
+1. Creating the container to the _Container Runtime Interface_
+1. Attaching the container to the network to the _Container Network Interface_
+1. Mounting volumes to the _Container Storage Interface_
 
 But for the scope of this post, let's focus on the CNI part.
 
@@ -57,7 +57,7 @@ different CNIs might use other ways to connect the container to the network.
   alt="Kubernetes Node Unordinary CNI"
 />
 
-As an example, there might *not* be a `docker0` bridge; the AWS CNI is an
+As an example, there might _not_ be a `docker0` bridge; the AWS CNI is an
 example of such CNI. In order to understand the reason of this choice, let's
 investigate on how EC2 networking works.
 

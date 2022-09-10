@@ -2,9 +2,7 @@
 
 ![Github Pages Publishing](https://github.com/manuelcoppotelli/manuelcoppotelli.github.io/workflows/Github%20Pages%20Publishing/badge.svg?branch=main)
 
-
 Visit [manuelcoppotelli.me](https://manuelcoppotelli.me)
-
 
 ## Get started
 
@@ -12,6 +10,16 @@ Install the dependencies...
 
 ```bash
 npm ci
+```
+
+Generate the images
+
+```bash
+git clone https://github.com/matfantinel/image-transmutation
+cd image-transmutation
+npm ci
+node ./index.js --run --sourceFolder "../static/images-archive" --targetFolder "../static/images" --inputFormats "jpg" --inputFormats "jpeg" --inputFormats "png" --outputFormats "webp" --outputFormats "avif" --outputFormats "png"
+cd ..
 ```
 
 ...then build
@@ -26,7 +34,7 @@ and finally
 npm run preview
 ```
 
-Navigate to [localhost:3000](http://localhost:3000). You should see the app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:4173](http://localhost:4173). You should see the app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
@@ -37,7 +45,7 @@ Create a new public repository `manuelcoppotelli.github.io`
 Select `Settings` from the top menu, scroll down to `Features` section and unchck everything but
 `Restrict editing to collaborators only`
 
-```
+```bash
 echo "# Manuel Coppotelli's personal profile" >> README.md
 git init
 git add README.md
@@ -47,12 +55,11 @@ git remote add origin git@github.com:manuelcoppotelli/manuelcoppotelli.github.io
 git push -u origin main
 ```
 
-
 ## Github Pages setup
 
 Create a `gh-pages` empty orphan branch
 
-```
+```bash
 git switch --orphan gh-pages
 git rm --cached -r .
 git clean -id
@@ -77,7 +84,7 @@ section, check `Allow all actions` and press `Save`
 
 A [dependabot.yml](https://github.com/manuelcoppotelli/manuelcoppotelli.github.io/blob/main/.github/dependabot.yml) configuration file is included in this repo, in order to check for both NPM packages and Github Actions.
 
-### Setup
+### Config
 
 Since it makes use of custom labels, create them through the following steps:
 
