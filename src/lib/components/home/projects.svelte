@@ -30,7 +30,7 @@
 									class="text-secondary"
 									href="https://registry.terraform.io/providers/tanzuformers/tmc"
 									target="_blank"
-									rel="noopener"
+									rel="noopener noreferrer"
 									title="Open project on Terraform Registry"
 								>
 									<ExternalLinkIcon />
