@@ -8,13 +8,13 @@
 </script>
 
 <div class="socials">
-	<a href="https://t.me/manuel_coppo" target="_blank" rel="noopener" title="Say Hi on Telegram">
+	<a href="https://t.me/manuel_coppo" target="_blank" rel="noopener noreferrer" title="Say Hi on Telegram">
 		<TelegramIcon />
 	</a>
 	<a
 		href="https://twitter.com/manuel_coppo"
 		target="_blank"
-		rel="noopener"
+		rel="noopener noreferrer"
 		title="Say Hi on Twitter"
 	>
 		<TwitterIcon />
@@ -22,7 +22,7 @@
 	<a
 		href="https://github.com/manuelcoppotelli"
 		target="_blank"
-		rel="noopener"
+		rel="noopener noreferrer"
 		title="See my GitHub profile"
 	>
 		<GitHubIcon />
@@ -30,7 +30,7 @@
 	<a
 		href="https://www.linkedin.com/in/manuelcoppotelli/"
 		target="_blank"
-		rel="noopener"
+		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
 	>
 		<LinkedInIcon />
@@ -38,12 +38,12 @@
 	<a
 		href="mailto:hi@manuelcoppotelli.me"
 		target="_blank"
-		rel="noopener"
+		rel="noopener noreferrer"
 		title="Send an email to hi@manuelcoppotelli.me"
 	>
 		<EmailIcon />
 	</a>
-	<a href="/blog/rss.xml" target="_blank" rel="noopener" title="Subscribe to my RSS Feed">
+	<a href="/blog/rss.xml" target="_blank" rel="noopener noreferrer" title="Subscribe to my RSS Feed">
 		<Rss />
 	</a>
 </div>
