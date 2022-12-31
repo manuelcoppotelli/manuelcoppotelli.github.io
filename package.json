@@ -13,12 +13,12 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
-		"@sveltejs/adapter-static": "^1.0.0-next.42",
+		"@sveltejs/adapter-static": "^1.0.0",
 		"@types/prismjs": "^1.26.0",
-		"@typescript-eslint/eslint-plugin": "^5.27.0",
-		"@typescript-eslint/parser": "^5.27.0",
+		"@typescript-eslint/eslint-plugin": "^5.47.1",
+		"@typescript-eslint/parser": "^5.47.1",
 		"dateformat": "^5.0.3",
-		"eslint": "^8.16.0",
+		"eslint": "^8.30.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
@@ -33,7 +33,7 @@
 		"svelte-preprocess": "^4.10.6",
 		"tslib": "^2.3.1",
 		"typescript": "^4.7.4",
-		"vite": "^3.1.0"
+		"vite": "^4.0.0"
 	},
 	"type": "module"
 }
