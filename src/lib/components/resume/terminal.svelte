@@ -14,6 +14,10 @@
 		margin: 0 auto;
 		width: 80%;
 		box-shadow: -8px -8px 25px #333333;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
 	}
 
 	.buttons {
@@ -42,7 +46,7 @@
 
 	.menu {
 		box-sizing: border-box;
-		height: 20px;
+		height: 25px;
 		background-color: #bbb;
 		border-top-right-radius: 5px;
 		border-top-left-radius: 5px;
@@ -57,5 +61,11 @@
 		font-family: monospace;
 		font-size: 13px;
 		line-height: 1.5em;
+	}
+
+	@media (prefers-color-scheme: light) {
+		.screen {
+			background-color: #f6f8f9 !important;
+		}
 	}
 </style>
