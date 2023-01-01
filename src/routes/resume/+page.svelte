@@ -66,12 +66,13 @@
 
 		<p class="subtext color1">--community</p>
 		<p class="doublesubtext">
+			Speaker at VMware Explore 2022: DevOps with Tanzu Community Edition and Carvel<br />
 			Speaker at VMworld 2021: <a
 				href="https://www.vmware.com/vmworld/en/video-library/video-landing.html?sessionid=1620811753703001Iuro"
 				>Automate DevOps with VMware Tanzu</a
 			><br />
 			Co-founder and Streamer for the online podcast
-			<a href="https://www.spreaker.com/show/the-pipeline-guys">The Pipeline Guys</a><br />
+			<a href="https://open.spotify.com/show/528EvxMPW9pk5DdCT7iyDb">The Pipeline Guys</a><br />
 			Creator of the
 			<a href="https://registry.terraform.io/providers/tanzuformers/tmc/latest"
 				>Terraform provider for Tanzu Mission Control</a
@@ -144,6 +145,7 @@
 		<p class="subtext bottomcut">* Certifications</p>
 		<p class="doublesubtext">
 			- Kubernetes: CKA, CKS, CKAD<br />
+			- Google: Professional Cloud Architect<br />
 			- AWS: Solution Architect, Professional<br />
 			- How to Manage a Remote Team - GitLab<br />
 		</p>
