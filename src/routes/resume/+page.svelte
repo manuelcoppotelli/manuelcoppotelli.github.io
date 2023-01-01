@@ -298,4 +298,21 @@
 			opacity: 0;
 		}
 	}
+
+	@media (prefers-color-scheme: light) {
+		a {
+			color: #403f53 !important;
+		}
+		.color1 {
+			color: #4285F4 !important;
+		}
+
+		.color2 {
+			color: #EA4334 !important;
+		}
+
+		.color3 {
+			color: #34A853 !important;
+		}
+	}
 </style>
