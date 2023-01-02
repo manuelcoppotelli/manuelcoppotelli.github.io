@@ -19,7 +19,7 @@
 		"@typescript-eslint/parser": "^5.47.1",
 		"dateformat": "^5.0.3",
 		"eslint": "^8.30.0",
-		"eslint-config-prettier": "^8.3.0",
+		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.6.2",
