@@ -6,6 +6,16 @@
     <description>I'm a site reliability engineer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
     
         <item>
+          <title>Three in a row!</title>
+          <description>I've just got the news: I've been nominated vExpert again, for the third year in a row!</description>
+          <link>https://manuelcoppotelli.me/three-in-a-row/</link>
+          <pubDate>2023-02-17T00:00:00.000Z</pubDate>
+          <category term="Communities" /><category term="VMware" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/three-in-a-row/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/three-in-a-row/cover.jpg"/>
+        </item>
+      
+        <item>
           <title>AWS EKS high-density pods</title>
           <description>AWS recently released a new version of the AWS-CNI that allows more Pods per node...</description>
           <link>https://manuelcoppotelli.me/aws-eks-high-density-pods/</link>
