@@ -15,7 +15,7 @@
 		"@sveltejs/kit": "next",
 		"@sveltejs/adapter-static": "^1.0.0",
 		"@types/prismjs": "^1.26.0",
-		"@typescript-eslint/eslint-plugin": "^5.47.1",
+		"@typescript-eslint/eslint-plugin": "^5.55.0",
 		"@typescript-eslint/parser": "^5.47.1",
 		"dateformat": "^5.0.3",
 		"eslint": "^8.30.0",
