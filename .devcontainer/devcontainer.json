@@ -1,0 +1,29 @@
+{
+  "name": "FE",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "containerEnv": {},
+
+  "features": {},
+
+  "forwardPorts": [],
+
+  "postCreateCommand": "",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "oderwat.indent-rainbow",
+        "stuart.unique-window-colors",
+        "svelte.svelte-vscode",
+      ]
+    }
+  },
+
+  // Connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
