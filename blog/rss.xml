@@ -6,6 +6,26 @@
     <description>I'm a site reliability engineer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
     
         <item>
+          <title>VMware {code} Hackathon @ VMware Explore 2023</title>
+          <description>The maximum expression of community is back!</description>
+          <link>https://manuelcoppotelli.me/vmware-code-hackaton-2023/</link>
+          <pubDate>2023-11-20T00:00:00.000Z</pubDate>
+          <category term="Hackathon" /><category term="Events" /><category term="Communities" /><category term="VMware" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/vmware-code-hackaton-2023/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/vmware-code-hackaton-2023/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>VMware Explore 2023 as blogger</title>
+          <description>VMware Explore 2023 ... as an independent blogger!</description>
+          <link>https://manuelcoppotelli.me/vmware-explore-2023-blogger/</link>
+          <pubDate>2023-11-13T00:00:00.000Z</pubDate>
+          <category term="Events" /><category term="Cloud" /><category term="Communities" /><category term="VMware" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://manuelcoppotelli.me/images/posts/vmware-explore-2023-blogger/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://manuelcoppotelli.me/images/posts/vmware-explore-2023-blogger/cover.jpg"/>
+        </item>
+      
+        <item>
           <title>Three in a row!</title>
           <description>I've just got the news: I've been nominated vExpert again, for the third year in a row!</description>
           <link>https://manuelcoppotelli.me/three-in-a-row/</link>
