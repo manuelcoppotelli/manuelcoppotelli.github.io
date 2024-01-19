@@ -10,7 +10,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"optimize-images": "image-transmutation --run --sourceFolder \"static/images-archive\" --targetFolder \"static/images\" --inputFormats \"jpg\" --inputFormats \"jpeg\" --inputFormats \"png\" --outputFormats \"webp\" --outputFormats \"avif\" --outputFormats \"png\""
+		"optimize-images": "image-transmutation --run --ignoreCache --sourceFolder \"static/images-archive\" --targetFolder \"static/images\" --inputFormats \"jpg\" --inputFormats \"jpeg\" --inputFormats \"png\" --outputFormats \"webp\" --outputFormats \"avif\" --outputFormats \"png\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0",
