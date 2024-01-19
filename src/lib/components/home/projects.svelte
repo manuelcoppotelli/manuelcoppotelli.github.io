@@ -20,7 +20,7 @@
 			<ProjectsGrid>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="terraform-rmc-provider" alt="Terraform TMC Provider" />
+						<Image path="projects" filename="terraform-tmc-provider" alt="Terraform TMC Provider" />
 					</div>
 					<div slot="content">
 						<div class="title">
