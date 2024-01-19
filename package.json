@@ -9,11 +9,12 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"optimize-images": "image-transmutation --run --sourceFolder \"static/images-archive\" --targetFolder \"static/images\" --inputFormats \"jpg\" --inputFormats \"jpeg\" --inputFormats \"png\" --outputFormats \"webp\" --outputFormats \"avif\" --outputFormats \"png\""
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "next",
 		"@sveltejs/adapter-static": "^1.0.0",
+		"@sveltejs/kit": "next",
 		"@types/prismjs": "^1.26.0",
 		"@typescript-eslint/eslint-plugin": "^5.47.1",
 		"@typescript-eslint/parser": "^5.47.1",
@@ -21,6 +22,7 @@
 		"eslint": "^8.30.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"image-transmutation": "^0.1.3",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",

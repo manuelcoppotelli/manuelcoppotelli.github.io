@@ -15,11 +15,7 @@ npm ci
 Generate the images
 
 ```bash
-git clone https://github.com/matfantinel/image-transmutation
-cd image-transmutation
-npm ci
-node ./index.js --run --sourceFolder "../static/images-archive" --targetFolder "../static/images" --inputFormats "jpg" --inputFormats "jpeg" --inputFormats "png" --outputFormats "webp" --outputFormats "avif" --outputFormats "png"
-cd ..
+npm run optimize-images
 ```
 
 ...then build

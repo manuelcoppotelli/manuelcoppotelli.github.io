@@ -25,19 +25,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Generate Assets
-        run: |
-          set -x
-          rm -rf ./static/images || echo
-          git clone https://github.com/matfantinel/image-transmutation
-          pushd image-transmutation || exit 1
-          npm ci
-          node ./index.js --run --sourceFolder "../static/images-archive" --targetFolder "../static/images" --inputFormats "jpg" --inputFormats "jpeg" --inputFormats "png" --outputFormats "webp" --outputFormats "avif" --outputFormats "png"
-          popd || exit 1
-          rm -rf ./static/images-archive || echo
-
       - name: Clean Install
         run: npm ci
+
+      - name: Generate Assets
+        run: rm -rf static/images && npm run optimize-images
 
       - name: Build
         run: npm run build
